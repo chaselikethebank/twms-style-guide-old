@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Space+Grotesk:regular,italic,700,700italic);
+
+:root {
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #212529;
+  
+    --color-dark-blue: #007fa3;
+    --color-dark-blue2: #007fa3;
+    --color-dark-blue3: #3399b5;
+    --color-light-blue: #5cadc4;
+    --color-light-green: #77be20;
+    --color-dark-green: #198754;
+    --color-light-grey: #e7e7e7;
+ 
+  
+
+  /* --vp-font-family-base: "Space Grotesk", "Inter var experimental", "Inter var",
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; */
+
+  /* --vp-font-family-mono: "Space Mono", Menlo, Monaco, Consolas, "Courier New",
+    monospace; */
+}
+
+.checkbox-container {
+  list-style: none; /* Remove default list-style */
+}
+
+.checkbox {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #ffffff;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.checkbox.checked {
+  background-color: #ffffff;
+}
+
+ 
+/* 
+.custom-block.tip {
+  background-color: rgba(131, 131, 131, 0.1)
+}
+ */
