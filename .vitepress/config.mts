@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/",
+  base: "/twms-style-guide",
   title: "TWMS Style Guide",
   description: "Frameworks and Mental Models to answer 80% of the questions ",
   themeConfig: {
