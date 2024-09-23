@@ -24,7 +24,18 @@ export default defineConfig({
         items: [
           { text: 'Colors', link: '/colors' },
           { text: 'Typography', link: '/typography' },
-          { text: 'Assets', link: '/assets' }
+          { text: 'Assets', link: '/assets' },
+          { text: "Guidelines", link: '/guideline'}
+
+
+        ]
+      },
+      {
+        text: 'Contact',
+        items: [
+          { text: 'Contact', link: '/contact' },
+         
+
 
         ]
       }
